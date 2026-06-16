@@ -84,6 +84,10 @@ http://localhost:4200
 
 ![Configurações](screenshots/settings.png)
 
+### Historico das Conversões
+
+![Graficos](screenshots/graphics.png)
+
 ## 🌐 API Utilizada
 
 O projeto utiliza uma API pública de câmbio para consulta de taxas atualizadas em tempo real.

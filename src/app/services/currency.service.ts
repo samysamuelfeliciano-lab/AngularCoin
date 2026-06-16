@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +10,19 @@ export class CurrencyService {
 
   constructor(private http: HttpClient) {}
 
-  getRates(base: string): Observable<any> {
+  getRates(base: string) {
     return this.http.get(`${this.apiUrl}${base}`);
+  }
+
+  getHistoricalRates(
+    from: string,
+    to: string,
+    start: string,
+    end: string
+  ) {
+
+    return this.http.get(
+      `https://api.frankfurter.app/${start}..${end}?from=${from}&to=${to}`
+    );
   }
 }

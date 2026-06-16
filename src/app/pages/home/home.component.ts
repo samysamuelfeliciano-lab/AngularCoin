@@ -47,7 +47,7 @@ export class HomeComponent {
     .getRates(this.from)
     .subscribe({
 
-      next: (data) => {
+      next: (data: any) => {
 
         this.storage.saveRates(data);
 

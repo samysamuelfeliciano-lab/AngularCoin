@@ -8,7 +8,7 @@ Aplicação web desenvolvida em Angular para conversão de moedas em tempo real 
 
 **Matrícula:** 01792472
 
-**Disciplina:** Desenvolvimento Web com Angular
+**Disciplina:** Desenvolvimento Web
 
 ## 🎯 Objetivo
 

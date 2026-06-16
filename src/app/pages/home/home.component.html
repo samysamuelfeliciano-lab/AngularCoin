@@ -1,0 +1,43 @@
+<nav class="menu">
+  <a routerLink="/">Conversor</a>
+  <a routerLink="/history">Histórico</a>
+  <a routerLink="/settings">Configurações</a>
+</nav>
+
+<hr>
+
+<div class="container">
+
+  <h1>AngularCoin</h1>
+
+  <input
+    type="number"
+    [(ngModel)]="amount"
+  >
+
+  <select [(ngModel)]="from">
+    <option *ngFor="let c of currencies">
+      {{c}}
+    </option>
+  </select>
+
+  <select [(ngModel)]="to">
+    <option *ngFor="let c of currencies">
+      {{c}}
+    </option>
+  </select>
+
+  <button (click)="invert()">
+    Inverter
+  </button>
+
+  <button (click)="convert()">
+    Converter
+  </button>
+
+  <h2>
+    Resultado:
+    {{result | number:'1.2-2'}}
+  </h2>
+
+</div>

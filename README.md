@@ -76,7 +76,7 @@ http://localhost:4200
 
 ![Conversor](screenshots/home.png)
 
-### Histórico de Conversões
+### Histórico das Conversões
 
 ![Histórico](screenshots/history.png)
 
@@ -84,7 +84,7 @@ http://localhost:4200
 
 ![Configurações](screenshots/settings.png)
 
-### Historico das Conversões
+### Gráfico das Conversões
 
 ![Graficos](screenshots/graphics.png)
 
